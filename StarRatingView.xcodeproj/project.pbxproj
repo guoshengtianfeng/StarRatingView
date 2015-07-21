@@ -13,6 +13,7 @@
 		01978BB41B5E448A008231F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01978BB21B5E448A008231F9 /* Main.storyboard */; };
 		01978BB61B5E448A008231F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01978BB51B5E448A008231F9 /* Assets.xcassets */; };
 		01978BB91B5E448A008231F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01978BB71B5E448A008231F9 /* LaunchScreen.storyboard */; };
+		01978BC31B5E449E008231F9 /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01978BC21B5E449E008231F9 /* StarRatingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		01978BB51B5E448A008231F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01978BB81B5E448A008231F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01978BBA1B5E448A008231F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01978BC11B5E449E008231F9 /* StarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
+		01978BC21B5E449E008231F9 /* StarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		01978BA81B5E448A008231F9 /* StarRatingView */ = {
 			isa = PBXGroup;
 			children = (
+				01978BC01B5E449E008231F9 /* Source */,
 				01978BAC1B5E448A008231F9 /* AppDelegate.h */,
 				01978BAD1B5E448A008231F9 /* AppDelegate.m */,
 				01978BAF1B5E448A008231F9 /* ViewController.h */,
@@ -78,6 +82,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		01978BC01B5E449E008231F9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01978BC11B5E449E008231F9 /* StarRatingView.h */,
+				01978BC21B5E449E008231F9 /* StarRatingView.m */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01978BB11B5E448A008231F9 /* ViewController.m in Sources */,
+				01978BC31B5E449E008231F9 /* StarRatingView.m in Sources */,
 				01978BAE1B5E448A008231F9 /* AppDelegate.m in Sources */,
 				01978BAB1B5E448A008231F9 /* main.m in Sources */,
 			);
